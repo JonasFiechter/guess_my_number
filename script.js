@@ -34,4 +34,8 @@ document.querySelector('.check').addEventListener('click', function() {
         score--;
         document.querySelector('.score').textContent = score;
     }
+
+    if (guess == secret_number) {
+        document.querySelector('.message').textContent = 'You win!'
+    }
 })
