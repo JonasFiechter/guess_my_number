@@ -10,6 +10,7 @@ const display_message = function(local, message) {
 
 // Action button check
 document.querySelector('.check').addEventListener('click', function() {
+    console.log('works')
     const guess = Number(document.querySelector('.guess').value);
 
     // if input is empty
